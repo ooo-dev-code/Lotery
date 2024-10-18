@@ -1,5 +1,7 @@
 from tkinter import *
 
+# All variables
+
 width = 600
 height = 600
 
@@ -30,7 +32,8 @@ class App():
         
         self.canvas.create_rectangle(canvas_width-25, canvas_height/2+100, canvas_width+(25-canvas_width)*(2/3), canvas_height/2-100, fill="gold")
         self.canvas.create_rectangle(canvas_width-25, canvas_height/2+100, canvas_width+(25-canvas_width)*(1/3), canvas_height/2-100, fill="gold")
-        
+
+        # Each emplacment to draw
         def Emplacment_3():
             
             global C_rows
