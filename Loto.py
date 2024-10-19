@@ -33,6 +33,7 @@ class App():
             
             roll()
 
+            # Drawing in the slots
             if result["value1"] == 1:
                 self.canvas.create_rectangle(place1["x1"], place1["y1"], place1["x2"], place1["y2"], fill=color[1])
             elif result["value1"] == 2:
@@ -55,6 +56,7 @@ class App():
                 self.canvas.create_rectangle(place3["x1"], place3["y1"], place3["x2"], place3["y2"], fill=color[3])
                 
 
+            # Message when you win
             if result["value1"] == 1 and result["value2"] == 1 and result["value3"] == 1:
                 self.win = Label(self.w, text="YOU WON !!!!!!!!!!!!")
                 self.win.pack(anchor="n")
