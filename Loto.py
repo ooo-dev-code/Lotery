@@ -30,7 +30,6 @@ class App():
                 print(result[f"value{i+1}"])
         
         def Play():
-            global A_rows, B_rows, C_rows
             
             roll()
 
