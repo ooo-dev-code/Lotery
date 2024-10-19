@@ -21,30 +21,6 @@ class App():
         
         self.canvas.create_rectangle(canvas_width-25, canvas_height/2+100, canvas_width+(25-canvas_width)*(2/3), canvas_height/2-100, fill="gold")
         self.canvas.create_rectangle(canvas_width-25, canvas_height/2+100, canvas_width+(25-canvas_width)*(1/3), canvas_height/2-100, fill="gold")
-        
-        def Emplacment_3():
-            
-            global C_rows
-            
-            self.canvas.create_rectangle(canvas_width-25-10, canvas_height/2+100-10, canvas_width+(25-canvas_width)*(1/3)+10, canvas_height/2-100+10, fill="orange")
-            
-            C_rows+=1
-            
-        def Emplacment_2():
-            
-            global B_rows
-            
-            self.canvas.create_rectangle(canvas_width+(25-canvas_width)*(1/3)-10, canvas_height/2+100-10, canvas_width+(25-canvas_width)*(2/3)+10, canvas_height/2-100+10, fill="blue")
-            
-            B_rows+=1
-            
-        def Emplacment_1():
-            
-            global A_rows
-            
-            self.canvas.create_rectangle(canvas_width+(25-canvas_width)*(3/3)+10, canvas_height/2+100-10, canvas_width+(25-canvas_width)*(2/3)-10, canvas_height/2-100+10, fill="red")
-            
-            A_rows+=1
             
         def roll():
 
